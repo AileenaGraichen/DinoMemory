@@ -1,6 +1,7 @@
 body{
-    background-color: aliceblue;
-    color: cadetblue;
+    background: rgb(218,194,237);
+    background: linear-gradient(165deg, rgba(218,194,237,1) 0%, rgba(137,195,218,1) 65%, rgba(90,149,207,1) 100%);
+    color: white;
     font-family: fantasy;
 }
 
@@ -12,12 +13,22 @@ body{
 }
 
 .card{
+    display: grid;
     width: 10em;
-    border: 1em solid #ccc;
+    border: 0.5em solid #f3f4f5;
+    background-color: #f3f4f5;
     border-radius: .6em;
     box-shadow: 4px 4 px 10px #333;
 }
 
 .card img{
     width: 100%;
+    border-radius: .5em;
+}
+
+#scores{
+    grid-column: 1/6;
+    display: flex;
+    justify-content: space-between;
+    font-size: 220%;
 }
