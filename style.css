@@ -21,6 +21,12 @@ body{
     box-shadow: 4px 4 px 10px #333;
 }
 
+.selected{
+    scale: 1.05;
+    box-shadow: 12px 12px 20px #333;
+    outline: 1px solid #97a9f8;
+}
+
 .card img{
     width: 100%;
     border-radius: .5em;
